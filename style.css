@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+#blueline {
+    background: fixed;
+    background-color: rgb(31, 183, 225);
+    height: 65px;
+    width: relative;
+    padding: 0px;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    border: 3px;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 1%;
+}
+#userCircle {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: white 4px;
+    border-style: solid;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+#seattle {
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+}
+#mapicon {
+    height: 15px;
+    width: 10px;
+}
+#textbox {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+#gear {
+    height: 20px;
+    width: 20px;
+    position: relative;
+}
+#bluetext{
+    color: rgb(37, 99, 233);
+    text-decoration: underline;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+}
